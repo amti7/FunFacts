@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -57,6 +57,7 @@
                             <constraint firstItem="LBP-tC-GTM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="K3a-eC-uK6"/>
                             <constraint firstItem="Ssr-GN-5rj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="144" id="PMe-CE-cGR"/>
                             <constraint firstItem="LBP-tC-GTM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="fh7-YV-K1i"/>
+                            <constraint firstItem="LBP-tC-GTM" firstAttribute="top" secondItem="Ssr-GN-5rj" secondAttribute="bottom" constant="115.5" id="h64-xA-feM"/>
                             <constraint firstItem="Ssr-GN-5rj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="hEm-hb-Emv"/>
                             <constraint firstAttribute="trailingMargin" secondItem="LBP-tC-GTM" secondAttribute="trailing" constant="20" id="vx0-Pa-bcf"/>
                         </constraints>
