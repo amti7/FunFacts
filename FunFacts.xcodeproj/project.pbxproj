@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F0599F31EA39FAD00CB48F9 /* FactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0599F21EA39FAD00CB48F9 /* FactProvider.swift */; };
 		9F23ED2B1EA26E1E004B1DFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F23ED2A1EA26E1E004B1DFF /* AppDelegate.swift */; };
 		9F23ED2D1EA26E1E004B1DFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F23ED2C1EA26E1E004B1DFF /* ViewController.swift */; };
 		9F23ED301EA26E1E004B1DFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F23ED2E1EA26E1E004B1DFF /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		9F23ED351EA26E1E004B1DFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F23ED331EA26E1E004B1DFF /* LaunchScreen.storyboard */; };
 		9F23ED401EA26E1E004B1DFF /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F23ED3F1EA26E1E004B1DFF /* FunFactsTests.swift */; };
 		9F23ED4B1EA26E1E004B1DFF /* FunFactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F23ED4A1EA26E1E004B1DFF /* FunFactsUITests.swift */; };
+		9FBDBC6A1EACDB310083EC8E /* BackgroundColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBDBC691EACDB310083EC8E /* BackgroundColorProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F0599F21EA39FAD00CB48F9 /* FactProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactProvider.swift; sourceTree = "<group>"; };
 		9F23ED271EA26E1E004B1DFF /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F23ED2A1EA26E1E004B1DFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F23ED2C1EA26E1E004B1DFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		9F23ED461EA26E1E004B1DFF /* FunFactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F23ED4A1EA26E1E004B1DFF /* FunFactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsUITests.swift; sourceTree = "<group>"; };
 		9F23ED4C1EA26E1E004B1DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FBDBC691EACDB310083EC8E /* BackgroundColorProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundColorProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		9F23ED1E1EA26E1E004B1DFF = {
 			isa = PBXGroup;
 			children = (
+				9FBDBC691EACDB310083EC8E /* BackgroundColorProvider.swift */,
 				9F23ED291EA26E1E004B1DFF /* FunFacts */,
 				9F23ED3E1EA26E1E004B1DFF /* FunFactsTests */,
 				9F23ED491EA26E1E004B1DFF /* FunFactsUITests */,
@@ -100,6 +105,7 @@
 				9F23ED2A1EA26E1E004B1DFF /* AppDelegate.swift */,
 				9F23ED2C1EA26E1E004B1DFF /* ViewController.swift */,
 				9F23ED2E1EA26E1E004B1DFF /* Main.storyboard */,
+				9F0599F21EA39FAD00CB48F9 /* FactProvider.swift */,
 				9F23ED311EA26E1E004B1DFF /* Assets.xcassets */,
 				9F23ED331EA26E1E004B1DFF /* LaunchScreen.storyboard */,
 				9F23ED361EA26E1E004B1DFF /* Info.plist */,
@@ -261,6 +267,8 @@
 			files = (
 				9F23ED2D1EA26E1E004B1DFF /* ViewController.swift in Sources */,
 				9F23ED2B1EA26E1E004B1DFF /* AppDelegate.swift in Sources */,
+				9FBDBC6A1EACDB310083EC8E /* BackgroundColorProvider.swift in Sources */,
+				9F0599F31EA39FAD00CB48F9 /* FactProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +513,7 @@
 				9F23ED511EA26E1E004B1DFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F23ED521EA26E1E004B1DFF /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				9F23ED541EA26E1E004B1DFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F23ED551EA26E1E004B1DFF /* Build configuration list for PBXNativeTarget "FunFactsUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				9F23ED571EA26E1E004B1DFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

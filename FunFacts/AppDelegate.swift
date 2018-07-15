@@ -5,7 +5,6 @@
 //  Created by Kamil Gacek on 15/04/17.
 //  Copyright © 2017 Kamil Gacek. All rights reserved.
 //
-
 import UIKit
 
 @UIApplicationMain
